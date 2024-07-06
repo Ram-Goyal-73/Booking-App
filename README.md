@@ -1,7 +1,3 @@
-Sure, here's the updated README.md file for your "Booking App" project, divided into three components: `api` (backend), `client` (frontend), and `admin`.
-
----
-
 # Booking App
 
 ## Overview
