@@ -1,3 +1,7 @@
+Sure, here's the updated README.md file for your "Booking App" project, divided into three components: `api` (backend), `client` (frontend), and `admin`.
+
+---
+
 # Booking App
 
 ## Overview
@@ -24,6 +28,12 @@ The Booking App is a comprehensive solution for users to book various services s
 - **Authentication & Authorization**: JWT (JSON Web Tokens)
 - **Styling**: Simple CSS
 
+## Project Structure
+
+- **api**: Backend server (Node.js, Express.js)
+- **client**: Frontend application for users (React.js)
+- **admin**: Admin dashboard for managing bookings and services (React.js)
+
 ## Installation
 
 ### Prerequisites
@@ -41,21 +51,27 @@ The Booking App is a comprehensive solution for users to book various services s
 
 2. **Install dependencies**
 
-    **Backend:**
+    **Backend (API):**
     ```bash
-    cd backend
+    cd api
     npm install
     ```
 
-    **Frontend:**
+    **Frontend (Client):**
     ```bash
-    cd ../frontend
+    cd ../client
+    npm install
+    ```
+
+    **Admin Dashboard:**
+    ```bash
+    cd ../admin
     npm install
     ```
 
 3. **Set up environment variables**
 
-    Create a `.env` file in the `backend` directory and add the following variables:
+    Create a `.env` file in the `api` directory and add the following variables:
     ```
     PORT=8800
     MONGO_URI=your_mongodb_connection_string
@@ -64,28 +80,36 @@ The Booking App is a comprehensive solution for users to book various services s
 
 4. **Run the application**
 
-    **Backend:**
+    **Backend (API):**
     ```bash
-    cd backend
+    cd api
     npm start
     ```
 
-    **Frontend:**
+    **Frontend (Client):**
     ```bash
-    cd ../frontend
+    cd ../client
+    npm start
+    ```
+
+    **Admin Dashboard:**
+    ```bash
+    cd ../admin
     npm start
     ```
 
 5. **Access the application**
 
-    Open your browser and navigate to `http://localhost:3000`.
+    - User Client: Open your browser and navigate to `http://localhost:3000`.
+    - Admin Dashboard: Open your browser and navigate to `http://localhost:3001`.
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
+1. Open your browser and navigate to `http://localhost:3000` for the user client.
 2. Register or log in to your account.
 3. Use the search functionality to find and book hotels, cars, cabs, flights, or taxis.
 4. Follow the prompts to complete your booking.
+5. Admins can log in to `http://localhost:3001` to manage locations, cars, taxis, flights, and bookings.
 
 ## Admin Functionality
 
@@ -98,10 +122,11 @@ The Booking App is a comprehensive solution for users to book various services s
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's style guidelines and includes appropriate tests.
 
+Feel free to customize the content as needed to fit your project's specifics.
 
 ## Contact
 
-For any questions or suggestions, feel free to open an issue or contact me at [your.email@example.com](mailto:ram.goyal.ug21@nsut.ac.in).
+For any questions or suggestions, feel free to open an issue or contact me at [ram.goyal.ug21@nsut.ac.in](mailto:ram.goyal.ug21@nsut.ac.in).
 
 ---
 
