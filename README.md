@@ -123,7 +123,3 @@ Feel free to customize the content as needed to fit your project's specifics.
 ## Contact
 
 For any questions or suggestions, feel free to open an issue or contact me at [ram.goyal.ug21@nsut.ac.in](mailto:ram.goyal.ug21@nsut.ac.in).
-
----
-
-Feel free to customize the content as needed to fit your project's specifics.
